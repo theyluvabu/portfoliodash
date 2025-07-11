@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+  padding: 0.5rem;
+  color: antiquewhite;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.leftside {
+  padding-right: 2rem;
+}
+
+.rightside {
+  padding-left: 2rem;
+}
+
+.market-open {
+  color: lawngreen;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.market-closed {
+  color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.api-status {
+  color: lawngreen;
+  font-weight: bold;
+}
